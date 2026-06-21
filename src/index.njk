@@ -19,8 +19,17 @@ layout: base.njk
 <div class="post-list">
 {% for post in collections.posts | reverse %}
     <article class="post-card">
+    {% if post.data.image %}
+    <img class="post-image"
+         src="{{ post.data.image }}"
+         alt="{{ post.data.title }}">
+{% else %}
+    <img class="post-image"
+         src="/images/posts/post-placeholder.png"
+         alt="{{ post.data.title }}">
+{% endif %}
         <time>
-    {{ post.date.toLocaleDateString("nl-NL") }}
+{{ post.date | readableDate }}
 </time>
 
         <h3>
