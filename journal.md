@@ -9,3 +9,7 @@
 
 ## Volgende stap
 - Git koppelen aan lokale map, nog ff geen idee bij
+
+## 2026-06-21
+- vandaag eens proberen oom 11ty aan de praat te krijgen.
+- Github Desktop geinstalleerd
