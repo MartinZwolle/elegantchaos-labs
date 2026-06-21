@@ -174,9 +174,9 @@ Zover ben ik nog niet.
 Op dit moment ziet het proces er ongeveer zo uit:
 
 ```text
-Obsidian
+Visual Code Studio
 ↓
-Git
+GitHub Desktop
 ↓
 GitHub
 ↓
