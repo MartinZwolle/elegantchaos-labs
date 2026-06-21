@@ -1,0 +1,26 @@
+{
+  "name": "elegantchaos-labs",
+  "version": "1.0.0",
+  "description": "Experimenten op het snijvlak van technologie, chaos en nieuwsgierigheid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinZwolle/elegantchaos-labs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinZwolle/elegantchaos-labs/issues"
+  },
+  "homepage": "https://github.com/MartinZwolle/elegantchaos-labs#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  },
+  "type": "module"
+}
