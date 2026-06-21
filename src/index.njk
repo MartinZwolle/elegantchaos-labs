@@ -1,0 +1,24 @@
+---
+title: Home
+layout: base.njk
+---
+
+<p>Welkom bij mijn digitale speeltuin.</p>
+
+<p>Hier experimenteer ik met technologie, management, infrastructuur, gitaar, hardlopen, AI en andere vormen van elegante chaos.</p>
+
+<p>Sommige ideeën zijn nuttig.</p>
+
+<p>Sommige zijn interessant.</p>
+
+<p>Sommige blijken achteraf een slecht idee.</p>
+
+<h2>Laatste posts</h2>
+
+<ul>
+{% for post in collections.posts | reverse %}
+    <li>
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
+    </li>
+{% endfor %}
+</ul>
