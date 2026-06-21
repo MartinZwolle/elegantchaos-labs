@@ -15,9 +15,13 @@ body {
   line-height: 1.6;
 }
 .brand {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand h1 {
+  margin: 0;
 }
 
 a {
