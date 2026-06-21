@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ title or "Elegant Chaos Labs" }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<div class="site">
+<header>
+    <h1>Elegant Chaos Labs</h1>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+    </nav>
+</header>
+
+<main>
+    {{ content | safe }}
+</main>
+
+<footer>
+    Built with 11ty.
+</footer>
+</div>
+</body>
+</html>

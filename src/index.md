@@ -1,14 +1,20 @@
+---
+title: Home
+layout: base.njk
+---
+
 # Elegant Chaos Labs
 
-Welkom in mijn lab.
+Welkom bij mijn digitale speeltuin.
 
-Hier experimenteer ik met:
+Hier experimenteer ik met technologie, management, infrastructuur, gitaar, hardlopen, AI en andere vormen van elegante chaos.
 
-- Obsidian
-- Git
-- 11ty
-- Cloudflare Pages
-- Raspberry Pi projecten
-- Gitaar-nerderij
+Sommige ideeën zijn nuttig.
 
-En alles wat ik verder interessant vind.
+Sommige zijn interessant.
+
+Sommige blijken achteraf een slecht idee.
+
+## Laatste posts
+
+- [Mijn eerste 11ty post](/posts/eerste-post/)
