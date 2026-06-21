@@ -2,23 +2,34 @@
 title: Home
 layout: base.njk
 ---
+<H1>Elegantchaos Labs</H1>
+<p class="intro">
+    Een persoonlijke speeltuin voor technologie, management,
+    muziek, infrastructuur en andere interessante vormen van chaos.
+</p>
 
-<p>Welkom bij mijn digitale speeltuin.</p>
-
-<p>Hier experimenteer ik met technologie, management, infrastructuur, gitaar, hardlopen, AI en andere vormen van elegante chaos.</p>
-
-<p>Sommige ideeën zijn nuttig.</p>
-
-<p>Sommige zijn interessant.</p>
-
-<p>Sommige blijken achteraf een slecht idee.</p>
+<p>
+    Hier experimenteer ik met ideeën, tools, projecten en gedachten
+    die soms nuttig zijn, soms interessant zijn, en soms gewoon bestaan
+    omdat ik benieuwd ben wat er gebeurt.
+</p>
 
 <h2>Laatste posts</h2>
 
-<ul>
+<div class="post-list">
 {% for post in collections.posts | reverse %}
-    <li>
-        <a href="{{ post.url }}">{{ post.data.title }}</a>
-    </li>
+    <article class="post-card">
+        <time>
+    {{ post.date.toLocaleDateString("nl-NL") }}
+</time>
+
+        <h3>
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </h3>
+
+        <p>{{ post.data.excerpt }}</p>
+
+        <a class="read-more" href="{{ post.url }}">Lees meer →</a>
+    </article>
 {% endfor %}
-</ul>
+</div>
