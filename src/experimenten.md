@@ -1,6 +1,6 @@
 ---
 title: Experimenten
-layout: page.njk
+layout: base.njk
 ---
 
 # Experimenten
