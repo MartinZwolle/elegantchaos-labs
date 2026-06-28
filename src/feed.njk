@@ -1,0 +1,23 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Elegant Chaos Labs</title>
+    <link>https://labs.elegantchaos.nl/</link>
+    <description>Technische experimenten en hobbyprojecten van Elegant Chaos Labs.</description>
+    <language>nl</language>
+
+    {% for post in collections.posts | reverse %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>https://labs.elegantchaos.nl{{ post.url }}</link>
+      <guid>https://labs.elegantchaos.nl{{ post.url }}</guid>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <description>{{ post.data.excerpt }}</description>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
