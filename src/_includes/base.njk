@@ -20,6 +20,7 @@
         <a href="/">Home</a>
         <a href="/experimenten/">Experimenten</a>
         <a href="/about/">About</a>
+        <a id="translate-link" href="#">Read in English</a>
         <a href="/feed.xml">RSS</a>
     </nav>
 </header>
@@ -42,5 +43,16 @@
 
 </footer>
 </div>
+<script>
+  const translateLink = document.getElementById("translate-link");
+
+  if (translateLink) {
+    const currentUrl = encodeURIComponent(window.location.href);
+    translateLink.href =
+      `https://translate.google.com/translate?sl=nl&tl=en&u=${currentUrl}`;
+    translateLink.target = "_blank";
+    translateLink.rel = "noopener";
+  }
+</script>
 </body>
 </html>
