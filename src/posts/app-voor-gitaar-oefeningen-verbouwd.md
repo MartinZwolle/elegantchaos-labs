@@ -4,7 +4,7 @@ date: 2026-06-28
 layout: post.njk
 tags: posts
 excerpt: Mijn webapp Chordflipperm die ik gebruik om akkoordwisselingen mee te oefenen heb ik flink verbouwd
-image: /images/posts/post-placeholder.png
+image: /images/posts/Chordflip-oud-en-nieuw.png
 ---
 
 # App voor gitaar oefeningen verbouwd
