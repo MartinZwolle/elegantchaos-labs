@@ -111,11 +111,12 @@ footer p {
   margin-bottom: 1rem;
 }
 .hero-image {
-  width: 100%;
-  max-height: 500px;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 1.5rem;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    cursor: zoom-in;
 }
 .project-grid {
   display: grid;

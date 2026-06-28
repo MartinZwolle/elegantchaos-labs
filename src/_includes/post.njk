@@ -5,9 +5,11 @@ layout: base.njk
 <article class="post">
 
     {% if image %}
-        <img class="hero-image"
-             src="{{ image }}"
-             alt="{{ title }}">
+        <a href="{{ image }}" target="_blank" rel="noopener">
+            <img class="hero-image"
+                 src="{{ image }}"
+                 alt="{{ title }}">
+        </a>
     {% else %}
         <img class="hero-image"
              src="/images/posts/post-placeholder.png"
