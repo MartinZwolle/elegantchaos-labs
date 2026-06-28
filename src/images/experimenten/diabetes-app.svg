@@ -1,0 +1,87 @@
+<svg width="320" height="240" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="240" rx="28" fill="#151719"/>
+
+  <!-- phone -->
+  <rect
+      x="54"
+      y="34"
+      width="96"
+      height="172"
+      rx="18"
+      fill="#202326"
+      stroke="#e8e8e8"
+      stroke-width="4"/>
+
+  <circle cx="102" cy="54" r="3" fill="#9be27d"/>
+
+  <!-- calendar -->
+  <rect
+      x="70"
+      y="72"
+      width="64"
+      height="64"
+      rx="8"
+      fill="none"
+      stroke="#e8e8e8"
+      stroke-width="3"/>
+
+  <line x1="70" y1="92" x2="134" y2="92"
+        stroke="#e8e8e8"
+        stroke-width="3"/>
+
+  <line x1="84" y1="72" x2="84" y2="60"
+        stroke="#e8e8e8"
+        stroke-width="3"/>
+
+  <line x1="120" y1="72" x2="120" y2="60"
+        stroke="#e8e8e8"
+        stroke-width="3"/>
+
+  <!-- checkmark -->
+  <path
+      d="M82 112 L96 126 L122 100"
+      fill="none"
+      stroke="#9be27d"
+      stroke-width="5"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+
+  <!-- streak -->
+  <circle cx="84" cy="158" r="5" fill="#9be27d"/>
+  <circle cx="102" cy="158" r="5" fill="#9be27d"/>
+  <circle cx="120" cy="158" r="5" fill="#9be27d"/>
+
+  <line x1="89" y1="158" x2="97" y2="158"
+        stroke="#9be27d"
+        stroke-width="3"/>
+
+  <line x1="107" y1="158" x2="115" y2="158"
+        stroke="#9be27d"
+        stroke-width="3"/>
+
+  <!-- heart -->
+  <path
+      d="M230 96
+         C230 82 248 78 256 92
+         C264 78 282 82 282 96
+         C282 112 256 132 256 132
+         C256 132 230 112 230 96Z"
+      fill="#9be27d"
+      opacity=".9"/>
+
+  <!-- subtle graph -->
+  <polyline
+      points="192,176 212,164 228,170 246,146 262,156 282,132"
+      fill="none"
+      stroke="#e8e8e8"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+
+  <circle cx="192" cy="176" r="3" fill="#9be27d"/>
+  <circle cx="212" cy="164" r="3" fill="#9be27d"/>
+  <circle cx="228" cy="170" r="3" fill="#9be27d"/>
+  <circle cx="246" cy="146" r="3" fill="#9be27d"/>
+  <circle cx="262" cy="156" r="3" fill="#9be27d"/>
+  <circle cx="282" cy="132" r="3" fill="#9be27d"/>
+</svg>

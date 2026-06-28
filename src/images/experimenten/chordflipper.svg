@@ -1,0 +1,43 @@
+<svg width="320" height="240" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ChordFlipper illustratie">
+  <rect width="320" height="240" rx="28" fill="#151719"/>
+
+  <!-- subtle glow -->
+  <circle cx="80" cy="190" r="38" fill="#9be27d" opacity="0.08"/>
+  <circle cx="240" cy="190" r="38" fill="#9be27d" opacity="0.08"/>
+
+  <!-- guitar neck -->
+  <path d="M74 34 C88 26, 110 26, 124 34 L130 58 L124 76 L124 188 L74 188 L74 76 L68 58 Z"
+        fill="none" stroke="#e8e8e8" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- frets -->
+  <line x1="76" y1="100" x2="122" y2="100" stroke="#e8e8e8" stroke-width="2" opacity=".75"/>
+  <line x1="76" y1="124" x2="122" y2="124" stroke="#e8e8e8" stroke-width="2" opacity=".75"/>
+  <line x1="76" y1="148" x2="122" y2="148" stroke="#e8e8e8" stroke-width="2" opacity=".75"/>
+
+  <!-- strings -->
+  <line x1="84" y1="58" x2="84" y2="188" stroke="#e8e8e8" stroke-width="1.5" opacity=".8"/>
+  <line x1="94" y1="58" x2="94" y2="188" stroke="#e8e8e8" stroke-width="1.5" opacity=".8"/>
+  <line x1="104" y1="58" x2="104" y2="188" stroke="#e8e8e8" stroke-width="1.5" opacity=".8"/>
+  <line x1="114" y1="58" x2="114" y2="188" stroke="#e8e8e8" stroke-width="1.5" opacity=".8"/>
+
+  <!-- chord dots -->
+  <circle cx="94" cy="112" r="5" fill="#9be27d"/>
+  <circle cx="104" cy="136" r="5" fill="#9be27d"/>
+
+  <!-- metronome -->
+  <path d="M190 188 L224 54 L258 188 Z"
+        fill="#202326" stroke="#e8e8e8" stroke-width="5" stroke-linejoin="round"/>
+  <line x1="224" y1="70" x2="224" y2="170" stroke="#9be27d" stroke-width="3"/>
+  <line x1="224" y1="150" x2="256" y2="86" stroke="#e8e8e8" stroke-width="5" stroke-linecap="round"/>
+  <rect x="246" y="78" width="18" height="18" rx="3" fill="#e8e8e8"/>
+
+  <!-- beat indicator -->
+  <circle cx="70" cy="208" r="12" fill="#9be27d"/>
+  <circle cx="120" cy="208" r="12" fill="#9be27d"/>
+  <circle cx="170" cy="208" r="12" fill="#9be27d"/>
+  <circle cx="220" cy="208" r="12" fill="#9be27d"/>
+
+  <line x1="82" y1="208" x2="108" y2="208" stroke="#9be27d" stroke-width="3" opacity=".5" stroke-dasharray="6 6"/>
+  <line x1="132" y1="208" x2="158" y2="208" stroke="#9be27d" stroke-width="3" opacity=".5" stroke-dasharray="6 6"/>
+  <line x1="182" y1="208" x2="208" y2="208" stroke="#9be27d" stroke-width="3" opacity=".5" stroke-dasharray="6 6"/>
+</svg>

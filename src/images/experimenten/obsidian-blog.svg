@@ -1,0 +1,88 @@
+<svg width="320" height="240" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="240" rx="28" fill="#151719"/>
+
+  <!-- Obsidian crystal -->
+  <polygon
+    points="60,70 88,38 116,72 108,122 74,148 48,112"
+    fill="#6f5bd6"
+    stroke="#d8d8ff"
+    stroke-width="3"/>
+
+  <!-- Git branch -->
+  <circle cx="170" cy="74" r="8" fill="#9be27d"/>
+  <circle cx="170" cy="120" r="8" fill="#9be27d"/>
+  <circle cx="210" cy="98" r="8" fill="#9be27d"/>
+
+  <line x1="170" y1="74" x2="170" y2="120"
+        stroke="#e8e8e8"
+        stroke-width="4"/>
+
+  <line x1="170" y1="98" x2="210" y2="98"
+        stroke="#e8e8e8"
+        stroke-width="4"/>
+
+  <!-- arrow -->
+  <path
+      d="M118 92 L148 92"
+      stroke="#9be27d"
+      stroke-width="4"
+      stroke-linecap="round"/>
+
+  <path
+      d="M142 84 L152 92 L142 100"
+      fill="none"
+      stroke="#9be27d"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+
+  <!-- Cloudflare -->
+  <path
+      d="M70 190
+         C70 170 90 160 110 170
+         C118 150 150 150 160 170
+         C180 170 190 180 190 190
+         Z"
+      fill="#202326"
+      stroke="#e8e8e8"
+      stroke-width="4"/>
+
+  <!-- browser -->
+  <rect
+      x="205"
+      y="154"
+      width="78"
+      height="50"
+      rx="8"
+      fill="#202326"
+      stroke="#e8e8e8"
+      stroke-width="3"/>
+
+  <line
+      x1="205"
+      y1="168"
+      x2="283"
+      y2="168"
+      stroke="#e8e8e8"
+      stroke-width="2"/>
+
+  <circle cx="215" cy="161" r="2" fill="#9be27d"/>
+  <circle cx="223" cy="161" r="2" fill="#9be27d"/>
+  <circle cx="231" cy="161" r="2" fill="#9be27d"/>
+
+  <!-- dotted connections -->
+  <line x1="178" y1="120"
+        x2="178"
+        y2="182"
+        stroke="#9be27d"
+        stroke-width="3"
+        stroke-dasharray="6 6"/>
+
+  <line x1="178"
+        y1="182"
+        x2="205"
+        y2="182"
+        stroke="#9be27d"
+        stroke-width="3"
+        stroke-dasharray="6 6"/>
+</svg>

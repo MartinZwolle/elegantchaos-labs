@@ -117,3 +117,144 @@ footer p {
   border-radius: 12px;
   margin-bottom: 1.5rem;
 }
+.project-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  display: flex;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  border: 1px solid #333;
+  border-radius: 12px;
+  background: #1b1b1b;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-3px);
+  border-color: #666;
+}
+
+.project-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.project-card h2 {
+  margin: 0 0 .5rem;
+}
+
+.project-card p {
+  margin: 0 0 1rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.project-link-disabled {
+  opacity: .6;
+  font-style: italic;
+}
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 0 0 1rem;
+}
+
+.project-tags span {
+  display: inline-block;
+  padding: .25rem .55rem;
+  border: 1px solid #3a3a3a;
+  border-radius: 999px;
+  background: #242424;
+  font-size: .8rem;
+  opacity: .9;
+}
+.project-status {
+  display: inline-block;
+  margin-bottom: .5rem;
+  padding: .2rem .6rem;
+  border-radius: 999px;
+  font-size: .75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.project-status.active {
+  color: #9be27d;
+  background: rgba(80, 160, 80, .15);
+}
+
+.project-status.experiment {
+  color: #ffd36a;
+  background: rgba(255, 180, 0, .15);
+}
+.project-image {
+  width: 110px;
+  height: 82px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+.project-button {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+
+    padding: .55rem .9rem;
+
+    border-radius: 999px;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    background: #9be27d;
+    color: #151719;
+
+    transition: .15s ease;
+}
+
+.project-button:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+}
+
+.project-button.secondary {
+    background: transparent;
+    color: #ddd;
+    border: 1px solid #444;
+}
+
+.project-button.secondary:hover {
+    border-color: #9be27d;
+}
+.callout {
+  margin: 2rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid #9be27d;
+  background: #1b1b1b;
+  border-radius: 8px;
+}
+
+.callout a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.callout a:hover {
+  text-decoration: underline;
+}
