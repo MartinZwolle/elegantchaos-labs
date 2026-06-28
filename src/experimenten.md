@@ -40,6 +40,7 @@ Klik gerust rond. De meeste projecten zijn open source of direct uit te proberen
       <div class="project-tags">
         <span>Obsidian</span>
         <span>Eleventy</span>
+        <span>Nunjucks</span>
         <span>GitHub</span>
         <span>Cloudflare Pages</span>
       </div>
