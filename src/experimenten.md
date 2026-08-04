@@ -13,6 +13,24 @@ Klik gerust rond. De meeste projecten zijn open source of direct uit te proberen
 
 <div class="project-grid">
 
+
+  <article class="project-card">
+    <img class="project-image" src="/images/experimenten/homelab-elegantchaos.svg" alt="Illustratie van Homelab" loading="lazy">    
+    <div>
+      <div class="project-status active">● Active</div>
+      <h2>Homelab</h2>
+      <p>Een aantal docker containers op kleine server thuis. Met cloudflare tunnels voor acces.</p>
+      <div class="project-tags">
+        <span>Docker</span>
+        <span>Server</span>
+        <span>Cloudflare Pages</span>
+      </div>
+      <div class="project-links">
+        <a href="https://app.elegantchaos.nl/">🌐 Open app</a>
+        <a href="https://github.com/MartinZwolle/chordflipper">💻 Source code</a>
+      </div>
+    </div>
+  </article>
   <article class="project-card">
     <img class="project-image" src="/images/experimenten/chordflipper.svg" alt="Illustratie van ChordFlipper" loading="lazy">    
     <div>
@@ -25,8 +43,7 @@ Klik gerust rond. De meeste projecten zijn open source of direct uit te proberen
         <span>Cloudflare Pages</span>
       </div>
       <div class="project-links">
-        <a href="https://app.elegantchaos.nl/">🌐 Open app</a>
-        <a href="https://github.com/MartinZwolle/chordflipper">💻 Source code</a>
+             <span class="project-link-disabled">🔒 Private project</span>
       </div>
     </div>
   </article>
