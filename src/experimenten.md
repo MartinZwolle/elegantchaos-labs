@@ -26,8 +26,7 @@ Klik gerust rond. De meeste projecten zijn open source of direct uit te proberen
         <span>Cloudflare Pages</span>
       </div>
       <div class="project-links">
-        <a href="https://app.elegantchaos.nl/">🌐 Open app</a>
-        <a href="https://github.com/MartinZwolle/chordflipper">💻 Source code</a>
+              <span class="project-link-disabled">🔒 Private project</span>
       </div>
     </div>
   </article>
@@ -43,8 +42,8 @@ Klik gerust rond. De meeste projecten zijn open source of direct uit te proberen
         <span>Cloudflare Pages</span>
       </div>
       <div class="project-links">
-             <span class="project-link-disabled">🔒 Private project</span>
-      </div>
+        <a href="https://app.elegantchaos.nl/">🌐 Open app</a>
+        <a href="https://github.com/MartinZwolle/chordflipper">💻 Source code</a>      </div>
     </div>
   </article>
 
