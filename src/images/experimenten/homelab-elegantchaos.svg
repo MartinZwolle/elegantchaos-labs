@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="160" height="120" viewBox="0 0 160 120"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Homelab illustratie</title>
+  <desc id="desc">Een mini-pc, NAS en drie containers die met elkaar verbonden zijn, in de ElegantChaos Labs stijl.</desc>
+
+  <rect x="1" y="1" width="158" height="118" rx="18"
+        fill="#111517"/>
+
+  <!-- netwerkverbindingen -->
+  <g fill="none" stroke="#8fe36b" stroke-width="2"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path d="M55 66 H74"/>
+    <path d="M97 66 H113"/>
+    <path d="M85 52 V43"/>
+    <path d="M85 79 V91"/>
+  </g>
+
+  <!-- netwerkpunten -->
+  <g fill="#8fe36b">
+    <circle cx="55" cy="66" r="3"/>
+    <circle cx="74" cy="66" r="3"/>
+    <circle cx="97" cy="66" r="3"/>
+    <circle cx="113" cy="66" r="3"/>
+    <circle cx="85" cy="43" r="3"/>
+    <circle cx="85" cy="91" r="3"/>
+  </g>
+
+  <!-- mini-pc -->
+  <g fill="none" stroke="#e8edf2" stroke-width="2"
+     stroke-linecap="round" stroke-linejoin="round">
+    <rect x="65" y="50" width="40" height="31" rx="5"/>
+    <path d="M72 57 H98"/>
+    <path d="M72 63 H98"/>
+    <circle cx="96" cy="74" r="2.2" fill="#8fe36b" stroke="none"/>
+    <circle cx="88" cy="74" r="2.2" fill="#8fe36b" stroke="none"/>
+  </g>
+
+  <!-- NAS links -->
+  <g fill="none" stroke="#e8edf2" stroke-width="2"
+     stroke-linecap="round" stroke-linejoin="round">
+    <rect x="22" y="44" width="32" height="46" rx="6"/>
+    <rect x="28" y="51" width="20" height="12" rx="2"/>
+    <rect x="28" y="68" width="20" height="12" rx="2"/>
+    <circle cx="45" cy="57" r="1.8" fill="#8fe36b" stroke="none"/>
+    <circle cx="45" cy="74" r="1.8" fill="#8fe36b" stroke="none"/>
+  </g>
+
+  <!-- containers rechts -->
+  <g fill="none" stroke="#e8edf2" stroke-width="2"
+     stroke-linecap="round" stroke-linejoin="round">
+    <rect x="114" y="38" width="24" height="16" rx="3"/>
+    <rect x="114" y="59" width="24" height="16" rx="3"/>
+    <rect x="114" y="80" width="24" height="16" rx="3"/>
+  </g>
+
+  <!-- container details -->
+  <g fill="#8fe36b">
+    <circle cx="120" cy="46" r="1.8"/>
+    <circle cx="120" cy="67" r="1.8"/>
+    <circle cx="120" cy="88" r="1.8"/>
+  </g>
+  <g fill="none" stroke="#e8edf2" stroke-width="1.7"
+     stroke-linecap="round">
+    <path d="M124 46 H132"/>
+    <path d="M124 67 H132"/>
+    <path d="M124 88 H132"/>
+  </g>
+
+  <!-- klein cloud/backup-symbool -->
+  <g fill="none" stroke="#e8edf2" stroke-width="2"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path d="M68 31
+             C69 25 74 22 79 23
+             C82 18 90 18 94 23
+             C101 22 106 27 106 33
+             C106 38 102 41 97 41
+             H75
+             C70 41 67 38 67 34
+             C67 33 67 32 68 31Z"/>
+  </g>
+  <path d="M86 29 V36 M82.5 32.5 86 36 89.5 32.5"
+        fill="none" stroke="#8fe36b" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- subtiele kabel onderaan -->
+  <g fill="none" stroke="#e8edf2" stroke-width="1.8"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path d="M38 90 C38 103 57 102 66 96"/>
+    <path d="M104 96 C113 102 126 101 126 96"/>
+  </g>
+</svg>
