@@ -456,7 +456,7 @@ Het begint verdacht veel op softwareontwikkeling te lijken.
 
 ## Op naar 1.0
 
-Versie 0.9 draait nu thuis.
+Versie 0.9 draait nu thuis.  
 
 De belangrijkste test is voorlopig niet technisch.
 
@@ -481,6 +481,8 @@ Het project begon met:
 Inmiddels heb ik een recommendation engine, provider abstractions, database migrations, groepsvoorkeuren, persoonlijke smaakprofielen, adaptive discovery en een deployment pipeline.
 
 Volkomen logisch dus.
+
+Als je het wil proberen: Je vind het projectje op GitHub https://github.com/MartinZwolle/pick-a-flick
 
 Built with Python, Docker and mild chaos.
     
