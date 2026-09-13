@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Pick a Flick</title>
+  <desc id="desc">Minimalistische illustratie van een filmkaart, popcorn en keuze-knoppen.</desc>
+
+  <rect width="720" height="420" rx="30" fill="#f5efe4"/>
+
+  <!-- soft background shapes -->
+  <circle cx="615" cy="76" r="92" fill="#e8ded0"/>
+  <circle cx="95" cy="350" r="112" fill="#eee5d9"/>
+
+  <!-- movie card -->
+  <g transform="translate(220 55)">
+    <rect x="0" y="0" width="310" height="310" rx="24" fill="#13293d"/>
+    <rect x="22" y="22" width="266" height="150" rx="16" fill="#1d4158"/>
+    <circle cx="225" cy="65" r="29" fill="#f3c969"/>
+    <path d="M22 145 L82 88 L124 124 L171 76 L235 138 L288 102 L288 172 L22 172 Z" fill="#5c8d89"/>
+    <path d="M22 156 L105 112 L154 145 L205 105 L288 158 L288 172 L22 172 Z" fill="#376b70"/>
+
+    <rect x="24" y="197" width="168" height="13" rx="6.5" fill="#f5efe4"/>
+    <rect x="24" y="222" width="222" height="9" rx="4.5" fill="#8094a3"/>
+    <rect x="24" y="241" width="185" height="9" rx="4.5" fill="#8094a3"/>
+
+    <!-- decision buttons -->
+    <g transform="translate(24 270)">
+      <rect width="50" height="38" rx="10" fill="#e85d5d"/>
+      <path d="M18 11 L32 27 M32 11 L18 27" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+      <rect x="62" width="50" height="38" rx="10" fill="#d8c7a9"/>
+      <text x="87" y="27" text-anchor="middle" font-size="25" font-family="Arial,sans-serif" fill="#13293d">?</text>
+      <rect x="124" width="50" height="38" rx="10" fill="#f3c969"/>
+      <path d="M139 24 h7 v-9 c0-5 7-7 7-1 v5 h7 c4 0 5 3 4 6 l-3 9 h-15 z" fill="#13293d"/>
+      <rect x="186" width="50" height="38" rx="10" fill="#6fb98f"/>
+      <path d="M211 29 C196 19 201 10 207 12 C211 13 211 17 211 17 C211 17 212 13 216 12 C222 10 227 19 211 29Z" fill="#fff"/>
+    </g>
+  </g>
+
+  <!-- popcorn -->
+  <g transform="translate(82 112)">
+    <g fill="#fff7df" stroke="#e7c66a" stroke-width="3">
+      <circle cx="49" cy="28" r="22"/><circle cx="78" cy="20" r="25"/>
+      <circle cx="105" cy="31" r="22"/><circle cx="66" cy="48" r="25"/>
+      <circle cx="96" cy="50" r="24"/>
+    </g>
+    <path d="M31 55 H119 L105 184 Q102 200 86 200 H62 Q46 200 43 184 Z" fill="#fff8ea"/>
+    <path d="M44 55 H61 L64 200 H52 Q46 200 43 184 Z" fill="#d94b4b"/>
+    <path d="M76 55 H94 L91 200 H73 Z" fill="#d94b4b"/>
+    <path d="M108 55 H119 L105 184 Q102 200 96 197 Z" fill="#d94b4b"/>
+  </g>
+
+  <!-- little group-to-choice connector -->
+  <g transform="translate(548 205)" stroke="#376b70" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="30" cy="22" r="13" fill="#5c8d89" stroke="none"/>
+    <circle cx="70" cy="22" r="13" fill="#f3c969" stroke="none"/>
+    <circle cx="110" cy="22" r="13" fill="#d94b4b" stroke="none"/>
+    <path d="M30 47 C30 77 70 73 70 99"/>
+    <path d="M70 47 V99"/>
+    <path d="M110 47 C110 77 70 73 70 99"/>
+    <path d="M70 99 V127"/>
+    <path d="M58 116 L70 128 L82 116"/>
+  </g>
+
+  <!-- title -->
+  <g transform="translate(545 344)">
+    <text x="0" y="0" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="28" fill="#13293d">Pick a Flick</text>
+    <text x="0" y="25" font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#5d6b73">stop scrolling · start watching</text>
+  </g>
+</svg>
