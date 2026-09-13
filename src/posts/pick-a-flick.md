@@ -17,9 +17,7 @@ Het begon met een vrij simpel probleem: we hebben thuis Netflix, Disney+ en Prim
 
 Niet omdat er te weinig keuze is.
 
-Omdat er veel te veel keuze is.
-
-Streamingdiensten zijn behoorlijk goed als je al weet wat je wilt kijken. Maar bij de vraag _"Wat zullen we vanavond eens kijken?"_ krijg je vooral honderden posters terug.
+Maar omdat ik niks kan met de aanbevelingen van een Netflix of Disney.  Als ik 3 keer een thriller heb gekeken. Krijg ik de komende weken alleen thrillers aangeboden. Terwijl mijn smaak veel breder is. 
 
 Ik mis een beetje de videotheek.
 
@@ -28,8 +26,6 @@ Daar liep je met z'n tweeën langs de bakken, trok een hoes eruit en zei: _deze 
 Dus dacht ik:
 
 > Zou ik dat zelf kunnen bouwen?
-
-Dat liep uiteraard uit de hand.
 
 ## Pick a Flick
 
@@ -80,19 +76,9 @@ De beschikbaarheidsinformatie wordt lokaal gecachet. Ik wil niet bij iedere klik
 
 Voorlopig is het dus één vrij klassieke Python-applicatie.
 
-Geen Kubernetes.
-
-Geen microservices.
-
-Geen vector database.
-
-En voor de recommendation engine zelfs geen AI.
-
-Dat laatste is bewust.
-
 ## Eerst een smaakprofiel
 
-Iedereen thuis krijgt een eigen profiel.
+Iedereen thuis maakt een eigen profiel. Voorlopig zonde rwachtwoord ofzo.
 
 Bij het aanmaken daarvan laat Pick a Flick ongeveer twintig bekende films zien.
 
@@ -199,9 +185,9 @@ Dat wil ik zelf kunnen begrijpen.
 
 De eerste werkende Filmavond-versie was technisch eigenlijk best aardig.
 
-Je selecteerde de kijkers.
+Ik selecteerde de kijkers.
 
-Je koos maximaal twee stemmingen.
+Ik koos maximaal twee stemmingen.
 
 Bijvoorbeeld:
 
@@ -213,8 +199,6 @@ Bijvoorbeeld:
 ❤️ Warm
 🌑 Donker
 ```
-
-Eventueel gaf je een maximale speelduur op.
 
 Pick a Flick haalde kandidaten op, controleerde de streamingdiensten, berekende de gezamenlijke smaakscore en presenteerde het resultaat.
 
@@ -489,10 +473,6 @@ Voor versie 1.0 staat daarom vooral polish op de planning.
 De frontend is nu Nederlands, terwijl code, comments en README Engels zijn. Dat is eigenlijk prima, maar als ik Pick a Flick openbaar wil maken moet de taal van de interface configureerbaar worden. Nederlands en Engels lijkt me voor de eerste versie voldoende.
 
 Daarnaast moeten foutmeldingen en lege states beter, wil ik nog eens goed naar de mobiele interface kijken en moet ik de attribution rond TMDb en de beschikbaarheidsdata netjes nalopen.
-
-Daarna kan de repository echt publiek gebruikt worden.
-
-Tenminste, dat is het plan.
 
 Het project begon met:
 
