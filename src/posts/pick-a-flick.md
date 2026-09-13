@@ -3,7 +3,7 @@ title: Pick a Flick
 date: 2026-09-13
 layout: post.njk
 tags: posts
-excerpt: Wat begon als een idee om rechtstreeks vanuit Obsidian te bloggen eindigde in een nieuwe website, een CI/CD-pipeline en een avond vol technische chaos.
+excerpt: Pick-a-flick is een Self-hosted tool om te kiezen welke film we met een groepje willen kijken.
 image: /images/posts/pick-a-flick.png
 ---
 
