@@ -13,7 +13,21 @@ Klik gerust rond. De meeste projecten zijn open source of direct uit te proberen
 
 <div class="project-grid">
 
-
+ <article class="project-card">
+    <img class="project-image" src="/images/experimenten/pick-a-flick.svg" alt="Illustratie van Pick-a-Flick" loading="lazy">    
+    <div>
+      <div class="project-status active">● Active</div>
+      <h2>Pick a Flick</h2>
+      <p>Kies op basis van de indiciduele voorkeur van de leden van de groep een film om samen te kijken.</p>
+      <div class="project-tags">
+        <span>Self-hosted</span>
+        <span>Python</span>
+        <span>Docker</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/MartinZwolle/pick-a-flick">💻 Source code</a>      </div>
+    </div>
+  </article>
   <article class="project-card">
     <img class="project-image" src="/images/experimenten/homelab-elegantchaos.svg" alt="Illustratie van Homelab" loading="lazy">    
     <div>
