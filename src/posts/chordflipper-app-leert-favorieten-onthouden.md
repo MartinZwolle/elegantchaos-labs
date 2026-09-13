@@ -3,7 +3,7 @@ title: ChordFlipper App leert favorieten onthouden
 date: 2026-07-24
 layout: post.njk
 tags: posts
-excerpt: Wat begon als een idee om rechtstreeks vanuit Obsidian te bloggen eindigde in een nieuwe website, een CI/CD-pipeline en een avond vol technische chaos.
+excerpt: Toen ik ChordFlipper online zette dacht ik eigenlijk dat hij wel zo'n beetje af was. Inmiddels heb ik hem flink uitgebreid.
 image: /images/posts/chordflipper-doorontwikkeling.png
 ---
 
