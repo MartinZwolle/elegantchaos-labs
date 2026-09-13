@@ -3,7 +3,7 @@ title: Mijn eerste avond met Docker
 date: 2026-08-02
 layout: post.njk
 tags: posts
-excerpt: Wat begon als een idee om rechtstreeks vanuit Obsidian te bloggen eindigde in een nieuwe website, een CI/CD-pipeline en een avond vol technische chaos.
+excerpt: Vanavond heb ik een persoonlijke CRM draaiend gekregen. Gewoon op mijn eigen pc. In Docker!!!
 image: /images/posts/eerste-avond-docker.png
 ---
 
