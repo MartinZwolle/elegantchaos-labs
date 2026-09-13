@@ -18,7 +18,7 @@ Klik gerust rond. De meeste projecten zijn open source of direct uit te proberen
     <div>
       <div class="project-status active">● Active</div>
       <h2>Pick a Flick</h2>
-      <p>Kies op basis van de indiciduele voorkeur van de leden van de groep een film om samen te kijken.</p>
+      <p>Kies op basis van de individuele voorkeur van de leden van de groep een film om samen te kijken.</p>
       <div class="project-tags">
         <span>Self-hosted</span>
         <span>Python</span>
