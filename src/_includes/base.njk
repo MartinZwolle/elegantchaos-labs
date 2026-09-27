@@ -7,14 +7,24 @@
     <meta name="google-site-verification"
           content="NBT7JavmQhYAw8anCZEb5O_0njKyj7jDO6wpP_WPBsY">
 
-    {# SEO #}
-    <title>{{ title or "ElegantChaos Labs" }}</title>
+    {# Gebruik description indien aanwezig, anders de excerpt van een post #}
+    {% set metaDescription = description or excerpt %}
 
-    {% if description %}
-    <meta name="description" content="{{ description }}">
+    {# Titel #}
+    {% if title == "ElegantChaos Labs" %}
+        <title>ElegantChaos Labs</title>
+    {% elif title %}
+        <title>{{ title }} | ElegantChaos Labs</title>
+    {% else %}
+        <title>ElegantChaos Labs</title>
     {% endif %}
 
-    {# Canonical URL #}
+    {# Description #}
+    {% if metaDescription %}
+        <meta name="description" content="{{ metaDescription }}">
+    {% endif %}
+
+    {# Canonical #}
     <link rel="canonical"
           href="https://labs.elegantchaos.nl{{ page.url }}">
 
@@ -22,9 +32,9 @@
     <meta property="og:title"
           content="{{ title or 'ElegantChaos Labs' }}">
 
-    {% if description %}
-    <meta property="og:description"
-          content="{{ description }}">
+    {% if metaDescription %}
+        <meta property="og:description"
+              content="{{ metaDescription }}">
     {% endif %}
 
     <meta property="og:url"
@@ -33,30 +43,62 @@
     <meta property="og:site_name"
           content="ElegantChaos Labs">
 
-    <meta property="og:type"
-          content="{% if page.date %}article{% else %}website{% endif %}">
+    {% if "posts" in tags %}
+        <meta property="og:type" content="article">
+    {% else %}
+        <meta property="og:type" content="website">
+    {% endif %}
 
     {% if image %}
-    <meta property="og:image"
-          content="https://labs.elegantchaos.nl{{ image }}">
+        <meta property="og:image"
+              content="https://labs.elegantchaos.nl{{ image }}">
     {% else %}
-    <meta property="og:image"
-          content="https://labs.elegantchaos.nl/images/logo.png">
+        <meta property="og:image"
+              content="https://labs.elegantchaos.nl/images/logo.png">
     {% endif %}
 
     {# Social cards #}
     <meta name="twitter:card" content="summary_large_image">
+
     <meta name="twitter:title"
           content="{{ title or 'ElegantChaos Labs' }}">
 
-    {% if description %}
-    <meta name="twitter:description"
-          content="{{ description }}">
+    {% if metaDescription %}
+        <meta name="twitter:description"
+              content="{{ metaDescription }}">
     {% endif %}
 
     {% if image %}
-    <meta name="twitter:image"
-          content="https://labs.elegantchaos.nl{{ image }}">
+        <meta name="twitter:image"
+              content="https://labs.elegantchaos.nl{{ image }}">
+    {% endif %}
+
+    {# Structured data voor blogposts #}
+    {% if "posts" in tags %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": {{ title | json | safe }},
+        {% if metaDescription %}
+        "description": {{ metaDescription | json | safe }},
+        {% endif %}
+        "datePublished": "{{ date | htmlDateString }}",
+        "url": "https://labs.elegantchaos.nl{{ page.url }}",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://labs.elegantchaos.nl{{ page.url }}"
+        },
+        {% if image %}
+        "image": "https://labs.elegantchaos.nl{{ image }}",
+        {% endif %}
+        "author": {
+            "@type": "Person",
+            "name": "Martin van der Linden",
+            "url": "https://elegantchaos.nl/over-elegantchaos"
+        }
+    }
+    </script>
     {% endif %}
 
     <link rel="stylesheet" href="/css/style.css?v=2">
