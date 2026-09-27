@@ -10,6 +10,10 @@
     {# Gebruik description indien aanwezig, anders excerpt #}
     {% set metaDescription = description or excerpt %}
 
+    {% if robots %}
+    <meta name="robots" content="{{ robots }}">
+    {% endif %}
+
     {# Paginatitel #}
     {% if title == "ElegantChaos Labs" %}
         <title>ElegantChaos Labs</title>
