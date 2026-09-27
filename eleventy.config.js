@@ -5,6 +5,10 @@ export default function(eleventyConfig) {
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
   return new Date(dateObj).toISOString().split("T")[0];
   });
+  eleventyConfig.addFilter("json", (value) => {
+  return JSON.stringify(value);
+  });
+  
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/favicon.png");
