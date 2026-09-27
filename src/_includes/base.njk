@@ -7,10 +7,10 @@
     <meta name="google-site-verification"
           content="NBT7JavmQhYAw8anCZEb5O_0njKyj7jDO6wpP_WPBsY">
 
-    {# Gebruik description indien aanwezig, anders de excerpt van een post #}
+    {# Gebruik description indien aanwezig, anders excerpt #}
     {% set metaDescription = description or excerpt %}
 
-    {# Titel #}
+    {# Paginatitel #}
     {% if title == "ElegantChaos Labs" %}
         <title>ElegantChaos Labs</title>
     {% elif title %}
@@ -19,12 +19,12 @@
         <title>ElegantChaos Labs</title>
     {% endif %}
 
-    {# Description #}
+    {# Meta description #}
     {% if metaDescription %}
         <meta name="description" content="{{ metaDescription }}">
     {% endif %}
 
-    {# Canonical #}
+    {# Canonical URL #}
     <link rel="canonical"
           href="https://labs.elegantchaos.nl{{ page.url }}">
 
@@ -43,12 +43,13 @@
     <meta property="og:site_name"
           content="ElegantChaos Labs">
 
-    {% if "posts" in tags %}
+    {% if layout == "post.njk" %}
         <meta property="og:type" content="article">
     {% else %}
         <meta property="og:type" content="website">
     {% endif %}
 
+    {# Afbeelding #}
     {% if image %}
         <meta property="og:image"
               content="https://labs.elegantchaos.nl{{ image }}">
@@ -71,10 +72,13 @@
     {% if image %}
         <meta name="twitter:image"
               content="https://labs.elegantchaos.nl{{ image }}">
+    {% else %}
+        <meta name="twitter:image"
+              content="https://labs.elegantchaos.nl/images/logo.png">
     {% endif %}
 
-    {# Structured data voor blogposts #}
-    {% if "posts" in tags %}
+    {# Structured data: alleen voor blogposts #}
+    {% if layout == "post.njk" %}
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -101,9 +105,11 @@
     </script>
     {% endif %}
 
+    {# Styling & favicon #}
     <link rel="stylesheet" href="/css/style.css?v=2">
     <link rel="icon" type="image/png" href="/favicon.png">
 
+    {# Umami analytics #}
     <script defer
             src="https://stats.elegantchaos.nl/script.js"
             data-website-id="7798897f-4c40-467d-8925-1c4539fd35e5"></script>
